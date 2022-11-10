@@ -1,0 +1,277 @@
+body {
+    font-family: 'Titillium Web';
+    max-width: 1400px;
+    margin: auto;
+}
+
+.bothside {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+#threedots {
+    text-align: end;
+}
+
+.left {
+    margin-left: 10px;
+    width: 20%;
+    height: 850px;
+    box-shadow: 5px 0px 15px 0px #0000000D;
+}
+
+.right {
+    width: 80%;
+    box-shadow: 5px 0px 15px 0px #0000000D;
+}
+
+.left .logo {
+    padding-left: 20px;
+    padding-top: 10px;
+    box-shadow: 5px 0px 15px 0px #0000000D;
+}
+
+.left .logo img {
+    width: 140px;
+    height: 40px;
+}
+
+.list {
+    display: flex;
+}
+
+.alllists {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.list img {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.list p {
+    font-family: 'Titillium Web';
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.flag {
+    margin-top: 10px;
+}
+
+.flag img {
+    margin-left: 15px;
+}
+
+.righthead {
+    display: flex;
+    box-shadow: 5px 0px 15px 0px #0000000D;
+}
+
+.righthead .userman {
+    margin-left: 20px;
+    width: 75%;
+}
+
+.rightbelow {
+    /* box-shadow: 5px 0px 15px 0px #0000000D; */
+    padding: 0 80px;
+}
+
+.upbelow {
+    margin-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.kla {
+    width: 50%;
+}
+
+.adduser {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.adduser button {
+    width: 150px;
+    height: 40px;
+    background: #003952;
+    border: none;
+    color: white;
+}
+
+#imp {
+    border-radius: 5px;
+    background: #D1D1D1;
+}
+
+
+/* INPUT FIELD  */
+
+.searchbar {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D1D1D1;
+    justify-content: space-between;
+}
+
+.ipfeild input {
+    box-shadow: 5px 0px 15px 0px #0000000D;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #D1D1D1;
+    color: #D1D1D1;
+    font-family: 'Titillium Web';
+    padding-left: 37px;
+}
+
+.ipfeild img {
+    position: absolute;
+    width: 14px;
+    top: 10px;
+    left: 10px;
+}
+
+.filter {
+    display: flex;
+    margin-right: 90px;
+}
+
+.filter p {
+    margin-top: 6px;
+    margin-right: 12px;
+    font-size: small;
+}
+
+.filter input {
+    border: 1px solid #D1D1D1;
+    box-shadow: 5px 0px 15px 0px #0000000D;
+    color: #D1D1D1;
+    width: 200px;
+    height: 30px;
+    font-family: 'Titillium Web';
+}
+
+.showrows {
+    display: flex;
+}
+
+.showrows p {
+    margin-top: 6px;
+    margin-right: 12px;
+    font-size: small;
+}
+
+.showrows input {
+    border: 1px solid #D1D1D1;
+    box-shadow: 5px 0px 15px 0px #0000000D;
+    width: 80px;
+    color: #D1D1D1;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+    color: #003952;
+}
+
+table,
+th,
+td {
+    /* border: 1px solid black; */
+    padding: 5px 0px;
+    text-align: start;
+}
+
+th,
+td {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+td img {
+    width: 16px;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footleft {
+    width: 30%;
+}
+
+.footright {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+button {
+    margin-left: 19px;
+    height: 30px;
+    color: #003952;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
+}
+
+.num1 {
+    background: #003952;
+    color: white;
+    width: 30px;
+}
+
+#num {
+    width: 30px;
+}
+
+#nxt {
+    width: 50px;
+}
+
+#pre {
+    color: #D1D1D1;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1190px) {
+    .righthead .userman {
+        margin-left: 20px;
+        width: 65%;
+    }
+    .filter {
+        display: flex;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .ipfeild {
+        margin-right: 10px;
+    }
+    .ipfeild input {
+        width: 200px;
+        height: 30px;
+    }
+    .filter {
+        display: flex;
+        margin-right: 30px;
+    }
+    .filter input {
+        width: 140px;
+    }
+}
