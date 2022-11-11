@@ -24,6 +24,7 @@ body {
 
 .right {
     width: 80%;
+    /* background: #f1f1f1; */
     box-shadow: 5px 0px 15px 0px #0000000D;
 }
 
@@ -42,27 +43,35 @@ body {
     display: flex;
 }
 
-.list:hover {
-    background-color: #D1D1D1;
+.listnew {
+    width: 103%;
+    height: 100%;
+    margin-left: -15px;
+    padding-left: 10px;
+}
+
+.listnew:hover {
+    background: rgba(0, 57, 82, 0.1);
     cursor: pointer;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     font-weight: 700;
 }
 
 .alllists {
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 
 .list img {
     width: 25px;
     height: 25px;
+    margin-left: 15px;
     margin-top: 10px;
 }
 
 .list p {
     font-family: 'Titillium Web';
-    margin-left: 10px;
+    margin-left: 22px;
     margin-top: 10px;
 }
 
@@ -93,12 +102,17 @@ button:hover {
 }
 
 .rightbelow {
-    /* box-shadow: 5px 0px 15px 0px #0000000D; */
+    margin: auto;
+    margin-top: 40px;
     padding: 0 80px;
+    padding-bottom: 60px;
+    background: white;
+    width: 79%;
+    /* box-shadow: 5px 0px 15px 0px #0000000D; */
 }
 
 .upbelow {
-    margin-top: 30px;
+    margin-top: 10px;
     display: flex;
     padding-bottom: 30px;
     border-bottom: 1px solid #D1D1D1;
@@ -106,6 +120,7 @@ button:hover {
 
 .kla {
     width: 50%;
+    font-weight: bolder;
 }
 
 .adduser {
@@ -125,7 +140,11 @@ button:hover {
 
 #imp {
     border-radius: 5px;
-    background: #D1D1D1;
+}
+
+.back {
+    border-top: 3px solid #f1f1f1;
+    background: #f1f1f1;
 }
 
 
@@ -239,14 +258,14 @@ button {
     height: 30px;
     color: #003952;
     background: white;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border: 1px solid #D1D1D1;
 }
 
 .num1 {
     background: #003952;
     color: white;
-    width: 30px;
+    width: 34px;
 }
 
 #num {
@@ -259,6 +278,10 @@ button {
 
 #pre {
     color: #D1D1D1;
+}
+
+#imp {
+    background: rgba(0, 57, 82, 0.1);
 }
 
 #imp p {
