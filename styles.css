@@ -12,6 +12,7 @@ body {
 
 #threedots {
     text-align: end;
+    padding-right: 40px;
 }
 
 .left {
@@ -41,6 +42,13 @@ body {
     display: flex;
 }
 
+.list:hover {
+    background-color: #D1D1D1;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
 .alllists {
     margin-top: 20px;
     margin-left: 30px;
@@ -64,6 +72,14 @@ body {
 
 .flag img {
     margin-left: 15px;
+}
+
+.flag img:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .righthead {
@@ -243,6 +259,46 @@ button {
 
 #pre {
     color: #D1D1D1;
+}
+
+#imp p {
+    font-weight: 700;
+}
+
+
+/* DROPDOWN */
+
+#threedots:hover {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    text-align: start;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+#threedots:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
 
 
